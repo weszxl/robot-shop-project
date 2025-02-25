@@ -125,8 +125,8 @@ services:
       timeout: 10s
       retries: 3
     # Uncomment to change payment gateway
-    #environment:
-      #PAYMENT_GATEWAY: "https://www.worldpay.com"
+    environment:
+      PAYMENT_GATEWAY: "https://www.worldpay.com"
     logging:
       <<: *logging
   dispatch:
